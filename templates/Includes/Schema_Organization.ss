@@ -5,7 +5,7 @@
 		"@id":"$AbsoluteLink",
 		"name" : "$SchemaOrganisation.XML",
 		"alternateName" : "$SchemaAlternateName.XML",
-		"description" : "$SchemaDescription.XML"
+		"description" : "$SchemaDescription.XML",
 		<% if FeatureImage %>
 		"image" : {
 			"@type" : "ImageObject",
