@@ -15,6 +15,9 @@
 			"height" : "$FeatureImage.Height"
 		},
 		<% end_if %>
+		<% if SchemaSameAs %>
+			"sameAs" : [ <% loop SchemaSameAs %>"$URL"<% if not Last %>,<% end_if %><% end_loop %> ],
+		<% end_if %>
 		"mainEntityOfPage" : "$AbsoluteLink"
 	}
 </script>
